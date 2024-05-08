@@ -8,6 +8,10 @@ public class CaixaEletronico {
             saldo = saldo - valorSolicitado;
         }
 
+        else 
+            System.out.println("Saldo insuficiente!");
+            System.out.println("");
+
         System.out.println(saldo);
 
     }
